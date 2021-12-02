@@ -38,12 +38,16 @@ body {
   font-size: 196px;
 }
 
-.control {
+.start, .pause {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 9px;
   position: absolute;
   font-size: 16px;
   bottom: 110px;
+}
+
+.pause {
+  display: none;
 }
 
 .settings {
