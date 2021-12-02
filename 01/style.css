@@ -16,10 +16,6 @@ body {
 }
 
 .counterBody {
-  filter:
-  drop-shadow(5px -16px 50px rgba(255, 255, 255, 0.15))
-  drop-shadow(-5px 15px 44px #000);
-  
   position: relative;
   color: white;
   width: 500px;
@@ -27,7 +23,6 @@ body {
   margin: auto;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(58,57,63,1) 0%, rgba(23,23,26,1) 100%);
-  border: 10px solid #900A0A;
   display: grid;
   place-items: center;
 }
@@ -38,7 +33,7 @@ body {
   font-size: 196px;
 }
 
-.start, .pause {
+.start, .pause, .restart {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 9px;
   position: absolute;
@@ -46,11 +41,25 @@ body {
   bottom: 110px;
 }
 
-.pause {
+.start, .pause, .restart:hover {
+  cursor: pointer;
+}
+
+.pause, .restart {
   display: none;
 }
 
 .settings {
   position: absolute;
   bottom: 55px;
+}
+
+.progress {
+  background: conic-gradient(#900A0A 0deg 360deg);
+  padding: 10px;
+  border-radius: 50%;
+  filter:
+    drop-shadow(5px -16px 50px rgba(255, 255, 255, 0.15))
+    drop-shadow(-5px 15px 44px #000);
+  
 }
