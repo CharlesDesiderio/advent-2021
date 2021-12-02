@@ -40,3 +40,13 @@ a, a:visited {
   bottom: 8px;
   
 }
+
+.portfolioLink {
+  color: #E8234D !important;
+}
+
+.portfolioLink:hover {
+  text-decoration: underline;
+  font-size: 2.5rem;
+  transition: .2s;
+}
