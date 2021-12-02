@@ -29,7 +29,7 @@ const doTimer = () => {
     calculateTime()
     setTimeout(() => {
       doTimer()
-    }, 200)
+    }, 1000)
   }
 }
 
