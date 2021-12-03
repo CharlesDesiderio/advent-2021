@@ -1,7 +1,7 @@
 let menuItems = [
   {
     name: `French Fries with Ketchup`,
-    price: 4.5,
+    price: 2.75,
     image: 'plate__french-fries.png'
   },
   {
@@ -11,32 +11,32 @@ let menuItems = [
   },
   {
     name: `Chicken Salad`,
-    price: 4.5,
+    price: 6.25,
     image: 'plate__chicken-salad.png'
   },
   {
     name: `Fish Sticks with French Fries`,
-    price: 4.5,
+    price: 3.95,
     image: 'plate__fish-sticks-fries.png'
   },
   {
     name: `Ravioli`,
-    price: 4.5,
+    price: 7.15,
     image: 'plate__ravioli.png'
   },
   {
     name: `Salmon with Vegetables`,
-    price: 4.5,
+    price: 8.55,
     image: 'plate__salmon-vegetables.png'
   },
   {
     name: `Spaghetti with Meat Sauce`,
-    price: 4.5,
+    price: 7.25,
     image: 'plate__spaghetti-meat-sauce.png'
   },
   {
     name: `Tortellini`,
-    price: 4.5,
+    price: 9.75,
     image: 'plate__tortellini.png'
   }
 ]
