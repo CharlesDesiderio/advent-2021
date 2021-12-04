@@ -1,0 +1,29 @@
+body {
+  padding: none;
+  margin: none;
+  overflow: hidden;
+  background-color: #2E3961;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.white-keys  {
+  fill: white;
+}
+
+.black-keys  {
+  fill: black;
+}
+
+.white-keys:hover {
+  fill: #ffd200;
+}
+
+.black-keys:hover {
+  fill: #f40082;
+}
