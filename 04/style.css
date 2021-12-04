@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  --keyboardBg: #F6F6F6;
+  --teal: #60C1B6;
+  --gray: #868888;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: #2E3961;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-rows: 60px 60px 60px 60px;
+  grid-gap: 11px;
+  width: 1110px;
+  height: 273px;
+  background-color: var(--keyboardBg);
+  border-radius: 35px;
+  padding: 40px 35px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 60px;
+}
+
+.key, .displayKey {
+  box-sizing: border-box;
+  border: 2px solid white;
+  background-color: white;
+  color: var(--teal);
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .05);
+}
+
+.del-key {
+  color: var(--gray);
+  width: 101px;
+}
+
+.tab-key {
+  color: var(--gray);
+  width: 100px;
+}
+
+.caps-key {
+  color: var(--gray);
+  width: 120px;
+}
+
+.enter-key {
+  color: var(--gray);
+  width: 112px;
+}
+
+.shift-key {
+  color: var(--gray);
+  width: 150px;
+}
+
+.wrongKey {
+  transition: .2s;
+  animation: blip .2s;
+  animation-iteration-count: infinite;
+}
+
+.wiggleKey {
+  background-color: black;
+  animation: wiggle .2s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes wiggle {
+  from {
+    transform: scale(1.07);
+  }
+  to {
+    transform: scale(0.95);
+  }
+}
+
+@keyframes blip {
+  from {
+    border: 2px solid black;
+  }
+  to {
+    border: none;
+  }
+}
