@@ -18,12 +18,13 @@ a, a:visited {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .project {
-  width: 150px;
-  height: 150px;
-  background-color: aliceblue;
+  position: relative;
+  width: 155px;
+  height: 155px;
   display: grid;
   place-items: center;
   background-color: #E8234D;
@@ -34,10 +35,26 @@ a, a:visited {
   transition: ease-out .2s;
 }
 
+.project img {
+  width: 150px;
+  height: 150px;
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  
+  border-radius: 20px;
+}
+
 .project:hover {
   transform:
   scale(1.12)
   rotate(8deg);
+}
+
+.project:hover img {
+  transition: .2s;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
 .portfolioLink {
@@ -48,4 +65,12 @@ a, a:visited {
   text-decoration: underline;
   font-size: 2.5rem;
   transition: .2s;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    width: 100%;
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
 }
