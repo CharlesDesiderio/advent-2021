@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 body {
+  font-family: 'Satisfy', cursive;
   text-align: center;
-  font-family: 'Mountains of Christmas', cursive;
   font-size: 2rem;
-  background-color: #2E3961;
+  color: #2E3961;
+  background-color: #fff;
+}
+
+.title-css, .title-js {
   color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  position: absolute;
+  top: 40px;
+  padding: 16px 20px;
+  font-size: 4rem;
+}
+
+.title-css {
+  right: 20px;
+  transform: rotate(16deg);
+  clip-path: polygon(0% 0, 100% 0%, 95% 90%, 6% 100%);
+  background-color: #E8234D;
+}
+
+.title-js {
+  clip-path: polygon(6% 0, 100% 12%, 96% 100%, 0 88%);
+  transform: rotate(-19deg);
+  left: -24px;
+  background-color: #2E3961;
+}
+
+.info {
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
 }
 
 a, a:visited {
@@ -14,6 +47,8 @@ a, a:visited {
 }
 
 .projects {
+  color: white;
+  font-family: 'Luxurious Script', cursive;
   width: 1110px;
   margin: auto;
   display: grid;
@@ -33,6 +68,7 @@ a, a:visited {
   text-shadow: 1px 1px 2px black;
   font-size: 2.5rem;
   transition: ease-out .2s;
+  font-size: 3.5rem;
 }
 
 .project img {
@@ -41,7 +77,6 @@ a, a:visited {
   top: 2px;
   left: 2px;
   position: absolute;
-  
   border-radius: 20px;
 }
 
@@ -57,13 +92,17 @@ a, a:visited {
   transform-origin: left;
 }
 
+.outro {
+  width: 60%;
+  margin: auto;
+}
+
 .portfolioLink {
   color: #E8234D !important;
 }
 
 .portfolioLink:hover {
   text-decoration: underline;
-  font-size: 2.5rem;
   transition: .2s;
 }
 
