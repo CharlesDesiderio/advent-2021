@@ -15,6 +15,7 @@ h5 {
   color: #A7A7A7;
   font-size: 16px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .container {
@@ -44,11 +45,10 @@ h5 {
 
 .episode {
   color: #4E4E4E;
-  margin: 11px auto;
+  margin: 20px auto;
   display: flex;
   align-items: center;
 }
-
 
 .episode:hover {
   cursor: pointer;
