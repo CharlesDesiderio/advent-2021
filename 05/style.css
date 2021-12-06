@@ -49,6 +49,11 @@ h5 {
   align-items: center;
 }
 
+
+.episode:hover {
+  cursor: pointer;
+}
+
 .episode span {
   margin-left: 22px;
 }
@@ -56,4 +61,12 @@ h5 {
 .episode img {
   width: 35px;
   height: 35px;
+}
+
+.unchecked {
+  color: #4E4E4E;
+}
+
+.checked {
+  color: #C9CDD1;
 }
