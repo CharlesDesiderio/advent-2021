@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advent Day 07</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="amount">
+      <p>Tip Amount</p>
+      <h3>$<span id="amount">69.99</span></h3>
+    </div>
+    <div class="perPerson">
+      <p>Total Per Person</p>
+      <h3>$<span id="perPerson">6.99</span></h3>
+    </div>
+    <div class="inputs">
+      <div class="amt">
+        <img src="./images/dollar.svg" alt="">
+        <input class="billTotal" value="100.00" id="billTotal" type="text">
+        <h3>Bill Amount</h3>
+      </div>
+      <div class="ppl">
+        <img src="./images/people.svg" alt="">
+        <input class="numPeople" value="2" id="numPeople" type="text">
+        <h3>Number of People</h3>
+      </div>
+    </div>
+    <div class="percentages">
+      <button id="5" class="tip unhighlightedTip">5%</button>
+      <button id="10" class="tip unhighlightedTip">10%</button>
+      <button id="15" class="tip unhighlightedTip">15%</button>
+      <button id="20" class="tip highlightedTip">20%</button>
+    </div>
+    <div class="calcButton">
+      <button id="calculate">Calculate</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
