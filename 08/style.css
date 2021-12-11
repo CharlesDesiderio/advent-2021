@@ -1,0 +1,15 @@
+body {
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto;
+  width: 1725px;
+}
+
+.dayContainer {
+  width: 230px;
+}
