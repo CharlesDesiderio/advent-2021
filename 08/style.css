@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Oswald&display=swap');
+
+/* 
+font-family: 'Krona One', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+
 body {
   width: 100vw;
 }
@@ -10,6 +17,76 @@ body {
   width: 1725px;
 }
 
-.dayContainer {
-  width: 230px;
+.day {
+  width: 245px;
+}
+
+.dayOfWeek {
+  margin: auto;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+}
+
+h4 {
+  color: #4DB0D3;
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+h3 {
+  color: #4DB0D3;
+  font-size: 96px;
+  margin: 0;
+}
+
+.dataContainer {
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+.weatherIcon {
+  position: absolute;
+  margin: auto;
+  width: 245px;
+  height: 245px;
+}
+
+.dataBox {
+  margin: auto;
+  width: 215px;
+  border-radius: 65px;
+  height: 690px;
+  background-color: #2B8BAD;
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+
+.info {
+  grid-row-start: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.temp {
+  font-size: 144px;
+  margin-bottom: 3rem;
+}
+
+.rain, .low {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.rain img, .low img {
+  width: 45px;
+  height: 45px;
+}
+
+.rain span, .low span {
+  font-size: 30px;
 }
