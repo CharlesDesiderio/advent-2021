@@ -90,3 +90,57 @@ h3 {
 .rain span, .low span {
   font-size: 30px;
 }
+
+.cloudyStyle {
+  background-color: #4DB0D3;
+  color: #D3EBF4;
+}
+
+.cloudyStyle .rainLow {
+  color: #D3EBF4;
+}
+
+.sunnyStyle {
+  background-color: #E6DF95;
+  color: #4DB0D3;
+}
+
+.sunnyStyle .rainLow {
+  color: #247490;
+}
+
+.stormyStyle {
+  background-color: #0E2E3A;
+  color: #E6DF95;
+}
+
+.stormyStyle .rainLow {
+  color: #D3EBF4;
+}
+
+.snowyStyle {
+  background-color: #BCE1EF;
+  color: #0E2E3A;
+}
+
+.snowyStyle .rainLow {
+  color: #247490;
+}
+
+.rainyStyle {
+  background-color: #4DB0D3;
+  color: #E6DF95;
+}
+
+.rainyStyle .rainLow {
+  color: #D3EBF4;
+}
+
+.partly-cloudyStyle {
+  background-color: #2B8BAD;
+  color: #E6DF95;
+}
+
+.partly-cloudyStyle .rainLow {
+  color: #D3EBF4;
+}
