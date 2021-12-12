@@ -61,6 +61,8 @@ h3 {
   background-color: #2B8BAD;
   display: grid;
   grid-template-rows: 40% 60%;
+  box-shadow:
+  15px 5px 45px 0 rgba(0, 0, 0, 0.25);
 }
 
 .info {
@@ -82,9 +84,13 @@ h3 {
   margin-bottom: 15px;
 }
 
-.rain img, .low img {
+.icon {
   width: 45px;
   height: 45px;
+}
+
+.icon path, .icon circle {
+  fill: pink;
 }
 
 .rain span, .low span {
@@ -100,6 +106,10 @@ h3 {
   color: #D3EBF4;
 }
 
+.cloudyicon path, .cloudyicon circle {
+  fill: #D3EBF4; 
+}
+
 .sunnyStyle {
   background-color: #E6DF95;
   color: #4DB0D3;
@@ -107,6 +117,10 @@ h3 {
 
 .sunnyStyle .rainLow {
   color: #247490;
+}
+
+.sunnyicon path, .sunnyicon circle {
+  fill: #247490;
 }
 
 .stormyStyle {
@@ -118,6 +132,10 @@ h3 {
   color: #D3EBF4;
 }
 
+.stormyicon path, .stormyicon circle {
+  fill: #D3EBF4
+}
+
 .snowyStyle {
   background-color: #BCE1EF;
   color: #0E2E3A;
@@ -125,6 +143,10 @@ h3 {
 
 .snowyStyle .rainLow {
   color: #247490;
+}
+
+.snowyicon path, .snowyicon circle {
+  fill: #247490;
 }
 
 .rainyStyle {
@@ -136,6 +158,10 @@ h3 {
   color: #D3EBF4;
 }
 
+.rainyicon path, .rainyicon circle {
+  fill: #D3EBF4;
+}
+
 .partly-cloudyStyle {
   background-color: #2B8BAD;
   color: #E6DF95;
@@ -143,4 +169,8 @@ h3 {
 
 .partly-cloudyStyle .rainLow {
   color: #D3EBF4;
+}
+
+.partly-cloudyicon path, .partly-cloudyicon circle {
+  fill: #D3EBF4;
 }
