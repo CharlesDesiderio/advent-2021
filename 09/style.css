@@ -25,6 +25,7 @@ body {
   background-color: var(--pink);
   display: grid;
   place-items: center;
+  opacity: .3;
 }
 
 .left {
@@ -41,10 +42,14 @@ body {
   place-items: center;
 }
 
+.fullImage img {
+  margin-bottom: 10px;
+}
+
 .carousel {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: auto;
   width: 90%;
   height: 173px;
@@ -52,8 +57,18 @@ body {
 }
 
 .carousel img {
-  height: 145px;
-  width: 145px;
+  height: 105px;
+  width: 105px;
+  box-sizing: border-box;
+}
+
+.carousel img:hover {
+  cursor: pointer;
+  border: 7px solid var(--pink);
+}
+
+.selectedImage {
+  border: 7px solid var(--pink);
 }
 
 .fullImage img {
