@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.question {
+  position: relative;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.questionHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.questionText {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 965px;
+  height: 85px;
+  border: 5px solid black;
+  font-weight: 800;
+  background-color: white;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 5px solid black;
+  width: 110px;
+  height: 125px;
+  background-color: black;
+}
+
+.imageBox img {
+  position: absolute;
+  bottom: 0;
+}
+
+.toggle {
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.answer {
+  position: absolute;
+  font-size: 24px;
+  top: 2rem;
+  z-index: -2;
+  background-color: #F0F0F0;
+  width: 90%;
+  right: 0;
+  min-height: 150px;
+  height: auto;
+}
+
+.answerText {
+  display: block;
+  padding-top: 8rem;
+  /* display: none; */
+}
