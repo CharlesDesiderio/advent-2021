@@ -8,13 +8,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div id="choices" class="container">
     <h3>pick one</h3>
     <div class="choices">
       <div class="choice" id="rock"><img src="./images/rock.png" alt=""></div>
       <div class="choice" id="paper"><img src="./images/paper.png" alt=""></div>
       <div class="choice" id="scissors"><img src="./images/scissors.png" alt=""></div>
     </div>
+  </div>
+  <div id="results" class="results">
+    <div id="win" class="win"><h3>You Win!</h3></div>
+    <div id="lose" class="lose"><h3>Computer Wins.</h3></div>
+    <button id="playAgain" class="playAgain">Play Again?</button>
+    <img id="playerResult" src="./images/paper.png" alt="">
+    <img id="computerResult" src="./images/paper.png" alt="">
   </div>
 </body>
 <script src="script.js"></script>
