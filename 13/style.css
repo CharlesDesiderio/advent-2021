@@ -55,6 +55,10 @@ p {
   right: 50px;
 }
 
+.close:hover {
+  cursor: pointer;
+}
+
 .image-box {
   padding: 50px;
   margin: 0 auto;
