@@ -1,0 +1,12 @@
+.month {
+  margin: auto;
+  width: 823px;
+  height: 765px;
+}
+
+.dayGrid {
+  display: grid;
+  padding: 50px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
