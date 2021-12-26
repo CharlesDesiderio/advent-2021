@@ -28,11 +28,18 @@ h3 {
   padding: 25px 50px;
 }
 
+.dayNames {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+
 .dayGrid {
   display: grid;
-  
+  text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .monthNav {
