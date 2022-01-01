@@ -11,6 +11,6 @@ img {
   margin: 2rem;
 }
 
-path {
+.star path {
   outline: 3px solid red;
 }
