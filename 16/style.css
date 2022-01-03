@@ -14,3 +14,7 @@ img {
 .star path {
   outline: 3px solid red;
 }
+
+.highlighted {
+  background-color: pink;
+}
